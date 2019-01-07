@@ -1,0 +1,35 @@
+
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>jQuery Input Mask Plugin Demos</title>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.10.1/jquery.min.js"></script>
+<script src="jquery.inputmask.bundle.min.js"></script>
+
+</head>
+
+<body>
+<div id="jquery-script-menu">
+<div class="jquery-script-center">
+<ul>
+<li><a href="https://www.jqueryscript.net/form/Easy-jQuery-Input-Mask-Plugin-inputmask.html">Download This Plugin</a></li>
+<li><a href="https://www.jqueryscript.net/">Back To jQueryScript.Net</a></li>
+</ul>
+</div>
+<h1 style="margin-top:150px;">jQuery Input Mask Plugin Demos</h1>
+<div align="center"><input data-inputmask="'alias': 'date'" /><br><br>
+
+
+<input data-inputmask="'mask': '9', 'repeat': 10, 'greedy' : false" /><br><br>
+
+##'mask': '[9-]AAA-999'
+<input data-inputmask="'mask': '99-9999999'" />
+<input data-inputmask="'mask': 'A-AA-AAAA-AA*-****'" />
+</div>
+<script>
+$(document).ready(function(){
+    $(":input").inputmask();
+});
+</script>
+</body></html>
